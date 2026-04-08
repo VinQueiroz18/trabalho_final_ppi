@@ -135,7 +135,7 @@ app.get('/cadastroLivro', isLogado, (req, res) => {
                     width: 100%;
                     max-width: 500px;
                 }
-                .title {
+                .titulo {
                     font-weight: bold;
                     margin-bottom: 20px;
                     text-align: center;
@@ -153,7 +153,7 @@ app.get('/cadastroLivro', isLogado, (req, res) => {
         <body>
         <div class="container container-main d-flex justify-content-center">
             <div class="form-box">
-                <h3 class="title">Cadastro de Livro</h3>
+                <h3 class="titulo">Cadastro de Livro</h3>
                 <form method="POST" action="/cadastroLivro">
                     <div class="mb-3">
                         <label class="form-label">Título do Livro</label>
@@ -214,7 +214,7 @@ app.post('/cadastroLivro', isLogado, (req, res) => {
                     width: 100%;
                     max-width: 500px;
                 }
-                .title {
+                .titulo {
                     font-weight: bold;
                     margin-bottom: 20px;
                     text-align: center;
@@ -232,7 +232,7 @@ app.post('/cadastroLivro', isLogado, (req, res) => {
         <body>
         <div class="container container-main d-flex justify-content-center">
             <div class="form-box">
-                <h3 class="title">Cadastro de Livro</h3>
+                <h3 class="titulo">Cadastro de Livro</h3>
                 <form method="POST" action="/cadastroLivro">
                     <div class="mb-3">
                         <label class="form-label">Título do Livro</label>
@@ -352,7 +352,7 @@ app.get('/listaLivros', isLogado, (req, res) => {
                     width: 100%;
                     max-width: 800px;
                 }
-                .title {
+                .titulo {
                     font-weight: bold;
                     margin-bottom: 20px;
                     text-align: center;
@@ -370,7 +370,7 @@ app.get('/listaLivros', isLogado, (req, res) => {
         <body>
         <div class="container container-main d-flex justify-content-center">
             <div class="table-box">
-                <h3 class="title">Livros Cadastrados</h3>
+                <h3 class="titulo">Livros Cadastrados</h3>
                 <div class="table-responsive">
                     <table class="table table-striped text-center">
                         <thead class="table-dark">
@@ -430,7 +430,7 @@ app.get('/cadastroLeitor', isLogado, (req, res) => {
                     width: 100%;
                     max-width: 500px;
                 }
-                .title {
+                .titulo {
                     font-weight: bold;
                     margin-bottom: 20px;
                     text-align: center;
@@ -448,7 +448,7 @@ app.get('/cadastroLeitor', isLogado, (req, res) => {
         <body>
         <div class="container container-main d-flex justify-content-center">
             <div class="form-box">
-                <h3 class="title">Cadastro de Leitor</h3>
+                <h3 class="titulo">Cadastro de Leitor</h3>
                 <form method="POST" action="/cadastroLeitor">
                     <div class="mb-3">
                         <label class="form-label">Nome do Leitor</label>
@@ -532,7 +532,7 @@ for(let i = 0; i < listaLivros.length; i++){
                     width: 100%;
                     max-width: 500px;
                 }
-                .title {
+                .titulo {
                     font-weight: bold;
                     margin-bottom: 20px;
                     text-align: center;
@@ -550,7 +550,7 @@ for(let i = 0; i < listaLivros.length; i++){
         <body>
         <div class="container container-main d-flex justify-content-center">
             <div class="form-box">
-                <h3 class="title">Cadastro de Leitor</h3>
+                <h3 class="titulo">Cadastro de Leitor</h3>
                 <form method="POST" action="/cadastroLeitor">
                     <div class="mb-3">
                         <label class="form-label">Nome do Leitor</label>
