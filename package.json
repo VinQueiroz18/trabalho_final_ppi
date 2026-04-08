@@ -1,0 +1,29 @@
+{
+  "name": "trabalho_final_ppi",
+  "version": "1.0.0",
+  "description": "Trabalho Final PPI 2026",
+  "keywords": [
+    "API"
+  ],
+  "homepage": "https://github.com/VinQueiroz18/trabalho_final_ppi#readme",
+  "bugs": {
+    "url": "https://github.com/VinQueiroz18/trabalho_final_ppi/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VinQueiroz18/trabalho_final_ppi.git"
+  },
+  "license": "ISC",
+  "author": "Vinicius Queiroz",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0"
+  }
+}
