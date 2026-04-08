@@ -652,7 +652,6 @@ for(let i = 0; i < listaLivros.length; i++){
 
 app.get('/login', (req, res) => {
     
-
     res.write(`
         <!DOCTYPE html>
         <html lang="pt-br">
