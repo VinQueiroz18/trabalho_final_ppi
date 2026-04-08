@@ -21,6 +21,10 @@ app.use(session({
 
 app.use(cookieParser());
 
+app.get('/', (req, res) => {
+    res.redirect('/login');
+});
+
 var listaLivros = [];
 var listaLeitores = [];
 
